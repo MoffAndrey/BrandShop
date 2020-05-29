@@ -7,26 +7,28 @@
 		<script src="https://kit.fontawesome.com/2bcecb9e0d.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="header container">
+		<header class="header container">
 			<div class="logo">Bran<span>d</span></div>
 			<div class="search">
 				<div class="searchBrowse">Browse  <i class="fas fa-caret-down"></i></div>
-				<input name="search" type="text" placeholder="Search for Item...">
-				<button><i class="fas fa-search"></i></button>
+				<form action="#">
+					<input name="search" type="text" placeholder="Search for Item...">
+					<button><i class="fas fa-search"></i></button>
+				</form>	
 			</div>
-			<img class="cart" src="img/cart.png" alt="Cart">
+			<a href="shopping_cart.html" class="cart"><img src="img/cart.png" alt="Cart"></a>
 			<button class="myaccount">My Account <i class="fas fa-caret-down"></i></button>
-		</div>
+		</header>
 		<div class="headerLine"></div>
-		<div class="mainMenu container">
-			<a href="#">Home</a>
+		<nav class="mainMenu container">
+			<a href="index.html">Home</a>
 			<a href="#">Man</a>
 			<a href="#">Women</a>
 			<a href="#">Kids</a>
 			<a href="#">Accoseriese</a>
 			<a href="#">Featured</a>
 			<a href="#">Hot Deals </a>
-		</div>
+		</nav>
 		<div class="topBlock">
 			<div class="topContent container">
 				<div class="topVerticalRow"></div>
@@ -52,46 +54,110 @@
 			</div>
 		</div>
 		<div class="FeturedItems container">
-			<div class="fetured-h2">Fetured Items</div>
-			<div class="fetured-h4">Shop for items based on what we featured in this week</div>
+			<h2 class="fetured-h2">Fetured Items</h2>
+			<h4 class="fetured-h4">Shop for items based on what we featured in this week</h4>
 			<div class="feturedArea">
 				<div class="feturedBlock">
-					<img src="img/Featured1.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured1.jpg" alt="Featured1">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured2.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured2.jpg" alt="Featured2">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured3.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured3.jpg" alt="Featured3">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured4.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured4.jpg" alt="Featured4">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured5.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured5.jpg" alt="Featured5">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured6.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured6.jpg" alt="Featured6">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured7.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured7.jpg" alt="Featured7">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
 				<div class="feturedBlock">
-					<img src="img/Featured8.jpg" alt="Featured1">
+					<div class="featuredImgWrap">
+							<div class="featuredBuy">
+								<button>
+								<img src="img/addToCart.png" alt="">
+								Add to Cart
+								</button>
+							</div>
+						<img src="img/Featured8.jpg" alt="Featured8">
+					</div>
 					<div class="featured-text">Mango People T-shirt</div>
 					<div class="featured-price">$52.00</div>
 				</div>
@@ -99,27 +165,32 @@
 			<button class="myaccount fetured-btn">Browse All Product <i class="fas fa-long-arrow-alt-right"></i></button>
 		</div>
 		<div class="discountBanner container">
-			<div class="bannerBlock">
-				<div class="banner-ico"><img src="img/Banner_ico_1.png" alt=""></div>
-				<div class="banner-content">
-					<div class="banner-title">Free Delivery</div>
-					<div class="banner-text">Worldwide delivery on all. Authorit tively morph next-generation innovtion with extensive models.</div>
+			<img src="img/Banner.jpg" alt="30% Offer for women" class="discountBanner-img">
+			<div class="offer-text">30% <span>OFFER</span><br><span>FOR WOMEN</span></div>
+			<div class="discountBannerBlocks">
+				<div class="bannerBlock">
+					<div class="banner-ico"><img src="img/Banner_ico_1.png" alt=""></div>
+					<div class="banner-content">
+						<div class="banner-title">Free Delivery</div>
+						<div class="banner-text">Worldwide delivery on all. Authorit tively morph next-generation innovtion with extensive models.</div>
+					</div>
+				</div>
+				<div class="bannerBlock">
+					<div class="banner-ico"><img src="img/Banner_ico_2.png" alt=""></div>
+					<div class="banner-content">
+						<div class="banner-title">Sales & discounts</div>
+						<div class="banner-text">Worldwide delivery on all. Authorit tively morph next-generation innovtion with extensive models.</div>
+					</div>
+				</div>
+				<div class="bannerBlock">
+					<div class="banner-ico"><img src="img/Banner_ico_3.png" alt=""></div>
+					<div class="banner-content">
+						<div class="banner-title">Quality assurance</div>
+						<div class="banner-text">Worldwide delivery on all. Authorit tively morph next-generation innovtion with extensive models.</div>
+					</div>
 				</div>
 			</div>
-			<div class="bannerBlock">
-				<div class="banner-ico"><img src="img/Banner_ico_2.png" alt=""></div>
-				<div class="banner-content">
-					<div class="banner-title">Sales & discounts</div>
-					<div class="banner-text">Worldwide delivery on all. Authorit tively morph next-generation innovtion with extensive models.</div>
-				</div>
-			</div>
-			<div class="bannerBlock">
-				<div class="banner-ico"><img src="img/Banner_ico_3.png" alt=""></div>
-				<div class="banner-content">
-					<div class="banner-title">Quality assurance</div>
-					<div class="banner-text">Worldwide delivery on all. Authorit tively morph next-generation innovtion with extensive models.</div>
-				</div>
-			</div>
+			
 		</div>
 		<div class="subscribe-bg">
 			<div class="subscribe container">
@@ -147,13 +218,51 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-content container">
-			
-		</div>
-		<div class="footer">
-			<div class="footer-copyright container">
-				
+		<footer>
+			<div class="footer-content container">
+				<div class="footer-text">
+					<div class="logo">Bran<span>d</span></div>
+					<div class="footer-h4">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.<br><br>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</div>
+				</div>
+				<div class="footer-menu">
+					<h2 class="footer-menuItem">COMPANY</h2>
+					<a href="#" class="footer-menuItem">Home </a>
+					<a href="#" class="footer-menuItem">Shop</a>
+					<a href="#" class="footer-menuItem">About</a>
+					<a href="#" class="footer-menuItem">How It Works</a>
+					<a href="#" class="footer-menuItem">Contact</a>
+				</div>
+				<div class="footer-menu">
+					<h2 class="footer-menuItem">INFORMATION</h2>
+					<a href="#" class="footer-menuItem">Tearms & Condition</a>
+					<a href="#" class="footer-menuItem">Privacy Policy</a>
+					<a href="#" class="footer-menuItem">How to Buy</a>
+					<a href="#" class="footer-menuItem">How to Sell</a>
+					<a href="#" class="footer-menuItem">Promotion</a>
+				</div>
+				<div class="footer-menu">
+					<h2 class="footer-menuItem">SHOP CATEGORY</h2>
+					<a href="#" class="footer-menuItem">Men</a>
+					<a href="#" class="footer-menuItem">Women</a>
+					<a href="#" class="footer-menuItem">Child</a>
+					<a href="#" class="footer-menuItem">Apparel</a>
+					<a href="#" class="footer-menuItem">Browse All</a>
+				</div>
 			</div>
-		</div>
+			<div class="copyright">
+				<div class="footer-copyright container">
+					<div class="copyright-text">© 2017  Brand  All Rights Reserved.</div>
+					<div class="copyright-social">
+						<!-- <a href="#" class="social-block"><i class="fab fa-facebook-f"></i></a>
+						<div class="social-block"><a href="#"><i class="fab fa-facebook-f"></i></a></div>-->
+						<div class="social-block"><i class="fab fa-facebook-f"></i></div>
+						<div class="social-block"><i class="fab fa-twitter"></i></div>
+						<div class="social-block"><i class="fab fa-linkedin-in"></i></div>
+						<div class="social-block"><i class="fab fa-pinterest-p"></i></div>
+						<div class="social-block"><i class="fab fa-google-plus-g"></i></div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
