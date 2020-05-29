@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Shopping Cart</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/2bcecb9e0d.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="header container">
+			<div class="logo">Bran<span>d</span></div>
+			<div class="search">
+				<div class="searchBrowse">Browse  <i class="fas fa-caret-down"></i></div>
+				<form action="#">
+					<input name="search" type="text" placeholder="Search for Item...">
+					<button><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+			<img class="cart" src="img/cart.png" alt="Cart">
+			<button class="myaccount">My Account <i class="fas fa-caret-down"></i></button>
+		</header>
+		<div class="headerLine"></div>
+		<nav class="mainMenu container">
+			<a href="index.html">Home</a>
+			<a href="#">Man</a>
+			<a href="#">Women</a>
+			<a href="#">Kids</a>
+			<a href="#">Accoseriese</a>
+			<a href="#">Featured</a>
+			<a href="#">Hot Deals </a>
+		</nav>
+		<div class="breadcrumbs-bg">
+			<div class="breadcrumbs-block container">
+				<div class="breadcrumbs-title">New Arrivals</div>
+				<div class="breadcrumbs">Home / Men / <span>New Arrivals</span></div>
+			</div>
+		</div>
+		<main class="main container">
+			<div class="shoppingCart">
+				<div class="shoppingCart-item">
+					<div>Product Details</div>
+					<div>unite Price</div>
+					<div>Quantity</div>
+					<div>shipping</div>
+					<div>Subtotal</div>
+					<div>ACTION</div>
+				</div>
+				<div class="shoppingCart-item">
+					<div class="cart-productdetails">
+						<img src="img/shoppingcart_item1.jpg" class="cartItem-img"></img>
+						<div class="cartItem-desc">
+							<h6>Mango  People  T-shirt</h6>
+							<p>Color: <span>Red</span><br>Size: <span>Xll</span></p>
+						</div>
+					</div>
+					<div class="cart-uniteprice">$150</div>
+					<div class="cart-quantity">2</div>
+					<div class="cart-shipping">free</div>
+					<div class="cart-subtotal">$300</div>
+					<div class="cart-action"><i class="fas fa-times-circle"></i></div>
+				</div>
+				<div class="shoppingCart-item">
+					<div class="cart-productdetails">
+						<img src="img/shoppingcart_item2.jpg" class="cartItem-img"></img>
+						<div class="cartItem-desc">
+							<h6>Mango  People  T-shirt</h6>
+							<p>Color: Red<br>Size: Xll</p>
+						</div>
+					</div>
+					<div class="cart-uniteprice">$150</div>
+					<div class="cart-quantity">2</div>
+					<div class="cart-shipping">free</div>
+					<div class="cart-subtotal">$300</div>
+					<div class="cart-action"><i class="fas fa-times-circle"></i></div>
+				</div>
+				<div class="shoppingCart-item">
+					<div class="cart-productdetails">
+						<img src="img/shoppingcart_item3.jpg" class="cartItem-img"></img>
+						<div class="cartItem-desc">
+							<h6>Mango  People  T-shirt</h6>
+							<p>Color: Red<br>Size: Xll</p>
+						</div>
+					</div>
+					<div class="cart-uniteprice">$150</div>
+					<div class="cart-quantity">2</div>
+					<div class="cart-shipping">free</div>
+					<div class="cart-subtotal">$300</div>
+					<div class="cart-action"><i class="fas fa-times-circle"></i></div>
+				</div>
+			</div>
+			<div class="shoppingCart-buttons">
+				<button class="cartbuttons">cLEAR SHOPPING CART</button>
+				<button class="cartbuttons">cONTINUE sHOPPING</button>
+			</div>
+
+
+		<div class="shoppingCart-proceed">
+			<div class="shippingadress">
+				<form action="#">
+					<legend>shipping adress</legend>
+					<input list="countries" name="country" placeholder="Bangladesh">
+					<datalist id="countries">
+
+						<option value="Russian Federatian"></option>
+						<option value="United States of America"></option>
+						<option value="Bangladesh"></option>
+						<option value="Thailand"></option>
+						<option value="China"></option>
+						<option value="Germany"></option>
+
+						</datalist>
+						<br>
+						<input type="text" name="region" placeholder="State"><br>
+						<input type="text" name="postcode" placeholder="Postcode / Zip" pattern="^([0-9]{6})$"><br>
+						<button class="cartbuttons">get a quote</button>
+					</form>
+				</div>
+				<div class="coupondiscount">
+					<form action="#">
+						<legend>coupon  discount</legend>
+						<label>Enter your coupon code if you have one <br>
+							<input type="text" name="Coupon" placeholder="Coupon" pattern="^([0-9\-]{3,12})$"><br>
+						</label>
+						<button class="cartbuttons">Apply coupon</button>
+					</form>
+				</div>
+				<div class="cartcheckout">
+					<div>
+						<p>Sub total&nbsp;&nbsp;&nbsp;$900</p>
+						<h3>GRAND TOTAL&nbsp;&nbsp;&nbsp;<span>$900</span></h3>
+						<div class="cartcheckout-shape"></div>
+						<button>proceed to checkout</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="subscribe-bg">
+			<div class="subscribe container">
+				<div class="subscribe-left">
+					<div class="subscribe-img"><img src="img/subscribe_photo.png" alt="">
+					</div>
+					<div class="subscribe-citata">
+						<div class="citata-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+						<div class="citata-author">Bin Burhan<br></div>
+						<div class="dhaka">Dhaka, Bd</div>
+						<div class="citata-pagination">
+							<div class="citata-line"></div>
+							<div class="citata-line"></div>
+							<div class="citata-line"></div>
+						</div>
+					</div>
+				</div>
+				<div class="shape"></div>
+				<div class="subscribe-right">
+					<div class="subscribe-text">Subscribe<br><span>FOR OUR NEWLETTER AND PROMOTION</span></div>
+					<div class="subscribe-input">
+						<form action="#">
+							<input name="subscribe" type="text" placeholder="Enter Your Email">
+							<button class="myaccount subscribe-btn">Subscribe</button>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-content container">
+				<div class="footer-text">
+					<div class="logo">Bran<span>d</span></div>
+					<div class="footer-h4">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.<br><br>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</div>
+				</div>
+				<div class="footer-menu">
+					<div class="footer-menuItem">COMPANY</div>
+					<a href="#" class="footer-menuItem">Home </a>
+					<a href="#" class="footer-menuItem">Shop</a>
+					<a href="#" class="footer-menuItem">About</a>
+					<a href="#" class="footer-menuItem">How It Works</a>
+					<a href="#" class="footer-menuItem">Contact</a>
+				</div>
+				<div class="footer-menu">
+					<div class="footer-menuItem">INFORMATION</div>
+					<a href="#" class="footer-menuItem">Tearms & Condition</a>
+					<a href="#" class="footer-menuItem">Privacy Policy</a>
+					<a href="#" class="footer-menuItem">How to Buy</a>
+					<a href="#" class="footer-menuItem">How to Sell</a>
+					<a href="#" class="footer-menuItem">Promotion</a>
+				</div>
+				<div class="footer-menu">
+					<div class="footer-menuItem">SHOP CATEGORY</div>
+					<a href="#" class="footer-menuItem">Men</a>
+					<a href="#" class="footer-menuItem">Women</a>
+					<a href="#" class="footer-menuItem">Child</a>
+					<a href="#" class="footer-menuItem">Apparel</a>
+					<a href="#" class="footer-menuItem">Browse All</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="footer-copyright container">
+					<div class="copyright-text">© 2017  Brand  All Rights Reserved.</div>
+					<div class="copyright-social">
+						<!-- <a href="#" class="social-block"><i class="fab fa-facebook-f"></i></a>
+						<div class="social-block"><a href="#"><i class="fab fa-facebook-f"></i></a></div>-->
+						<div class="social-block"><i class="fab fa-facebook-f"></i></div>
+						<div class="social-block"><i class="fab fa-twitter"></i></div>
+						<div class="social-block"><i class="fab fa-linkedin-in"></i></div>
+						<div class="social-block"><i class="fab fa-pinterest-p"></i></div>
+						<div class="social-block"><i class="fab fa-google-plus-g"></i></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
