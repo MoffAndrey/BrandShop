@@ -1,0 +1,98 @@
+@media (min-width: 1200px) {
+		.offers {
+			height: 815px;
+		}
+	}
+
+@media (max-width: 1200px) {
+	nav .mainMenu li:not(:last-child) {
+        margin-right: 0px; }
+
+		.offers {
+			height: 1630px;
+		}
+	}
+
+@media (max-width: 768px) {
+			nav .mainMenu li a {
+        	font-size: 13px;
+        	padding: 4px 8px; 
+    	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+		.topBlock {
+			height: 490px;
+		}
+	}
+
+@media (max-width: 575px) {
+		.burgermenu {
+			
+		}
+
+		.offers {
+			height: 1060px;
+			margin-top: 10px !important;
+			
+			.offersBlock {
+				img {
+					width: 360px;
+				}
+			}
+		}
+
+		.subscribe-bg .subscribe .subscribe-right .subscribe-input {
+     		 width: 300px;
+		 }
+
+		.topBlock {
+			height: 370px;
+			.topContent {
+				div {
+					.topContentText {
+							font-size: 2.8rem;
+						span {
+							font-size: 2rem;
+						}
+					}
+				}
+			}
+		}
+		.footer-content .footer-menu .footer-menuItem {
+     		 font-size: 11px;
+     		}
+
+      	.footer-content .footer-menu .footer-menuItem:first-child {
+       		 font-size: 13px;
+        }	
+
+        .discountBanner {
+        	margin-bottom: 0px;
+        }
+        .subscribe-bg {
+        	padding-top: 20px;
+        }
+	}
+
+@media (min-width: 435px) and (max-width: 575px) {
+			.topBlock {
+			height: 370px;
+			.topContent {
+				div {
+					.topContentText {
+							font-size: 2.8rem;
+						span {
+							font-size: 2rem;
+						}
+					}
+				}
+			}
+		}
+}
+
+@media (max-width: 435px) {
+		.topBlock {
+			height: 300px;
+			}
+}	
