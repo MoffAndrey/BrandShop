@@ -6,20 +6,47 @@
     margin-right: 0px; }
 
   .offers {
-    height: 1630px; } }
+    height: 520px;
+    width: 720px;
+    margin-top: 10px !important; }
+    .offers .offersBlock {
+      margin: 0px 5px; }
+      .offers .offersBlock img {
+        width: 360px; } }
 @media (max-width: 768px) {
   nav .mainMenu li a {
     font-size: 13px;
-    padding: 4px 8px; } }
+    padding: 4px 8px; }
+
+  .FeturedItems .feturedBlock {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16); }
+    .FeturedItems .feturedBlock:not:first-child {
+      margin-top: 27px; }
+
+  .breadcrumbs-bg {
+    height: 80px; }
+
+  .offers {
+    height: 1050px;
+    margin-top: 10px !important;
+    width: auto; }
+    .offers .offersBlock .offersContent {
+      padding: 20px 36px;
+      height: 120px;
+      top: 27%;
+      background: rgba(255, 255, 255, 0.4);
+      font-size: 28px;
+      font-weight: 1000; }
+      .offers .offersBlock .offersContent span {
+        font-size: 40px; }
+    .offers .offersBlock img {
+      width: 360px; } }
 @media (min-width: 576px) and (max-width: 768px) {
   .topBlock {
     height: 490px; } }
-@media (max-width: 575px) {
-  .offers {
-    height: 1060px;
-    margin-top: 10px !important; }
-    .offers .offersBlock img {
-      width: 360px; }
+@media (max-width: 1200px) {
+  .FeturedItems .feturedBlock:nth-child(n+4) {
+    margin-top: 27px; }
 
   .subscribe-bg .subscribe .subscribe-right .subscribe-input {
     width: 300px; }
@@ -42,15 +69,47 @@
 
   .subscribe-bg {
     padding-top: 20px; } }
+@media (max-width: 991px) {
+  .card .card-body form input {
+    width: 300px; }
+
+  .card .checkButton {
+    width: 150px; }
+
+  .FeturedItems .feturedBlock:nth-child(n+2) {
+    margin-top: 27px; } }
 @media (min-width: 435px) and (max-width: 575px) {
   .topBlock {
     height: 370px; }
     .topBlock .topContent div .topContentText {
       font-size: 2.8rem; }
       .topBlock .topContent div .topContentText span {
-        font-size: 2rem; } }
+        font-size: 2rem; }
+
+  #accordion {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
+  .card .card-body form a {
+    margin: 15px 0px; } }
 @media (max-width: 435px) {
   .topBlock {
-    height: 300px; } }
+    height: 300px;
+    background-color: #ccc; }
+    .topBlock .topContent {
+      background: url("../img/topHeaderBack.png") right top no-repeat, #ccc;
+      background-size: 52.5%;
+      background-blend-mode: overlay; }
+
+  #accordion {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
+  .card .card-body {
+    margin-left: 0px !important; }
+    .card .card-body form input {
+      width: 260px; }
+  .card .card-body form a {
+    margin: 15px 0px; } }
 
 /*# sourceMappingURL=media.css.map */

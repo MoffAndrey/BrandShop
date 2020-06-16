@@ -13,6 +13,21 @@
 		}
 }
 
+@mixin btn2Mixin ($_btnHeight, $_btnFontSize, $_btnFontWeight, $_btnWidth: unset) {
+	height: $_btnHeight;
+	width: $_btnWidth;
+    background-color: white;
+    color: $mainTextColor;
+    font-size: $_btnFontSize;
+    font-weight: $_btnFontWeight;
+    padding: 8px 16px;
+    border: 1px solid $bordersDividersInputbg;
+	
+	&:hover {
+		background-color: $mainBackgroundColor;
+		}
+}
+
 @mixin topBlockVerticalRow ($_media) {
 	@if $_media == phones {
 		@media (max-width: 767px) { 
