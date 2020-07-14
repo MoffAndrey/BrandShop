@@ -1,2 +1,0 @@
-# BrandShop
-GeekBrains Lessons

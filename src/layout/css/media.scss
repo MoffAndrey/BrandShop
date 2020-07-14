@@ -8,6 +8,11 @@
 	nav .mainMenu li:not(:last-child) {
         margin-right: 0px; }
 
+        #cartMenu {
+			top: 75px;
+	   		left: calc(100% - 270px);
+        }
+
 		.offers {
 			height: 520px;
 			width: 720px;
@@ -26,6 +31,56 @@
         	font-size: 13px;
         	padding: 4px 8px; 
     	}
+		
+		#cartMenu {
+			top: 55px;
+	   		left: calc(100% - 270px);
+        }
+
+		.product {
+			margin-top: 0px;
+			.leftCatalog {
+				.card {
+					.card-body {
+						a {
+						letter-spacing: 3px;
+						font-size: 18px;
+						font-weight: 700;
+						}
+					}
+				}
+			}
+			.rightCatalog {
+				.rightProduct {
+						letter-spacing: 2px;
+						font-size: 16px;
+						font-weight: 400;
+
+						.productTrend a {
+							letter-spacing: 2px;
+							font-size: 16px;
+							font-weight: 400;
+						}
+
+						.productTrend-h4 {
+							font-size: 18px;
+							font-weight: 700;
+						}
+				}
+			}
+			nav {
+				margin-top: 0px;
+			}
+			.buttonViewAll {
+				width: 75%;
+			}
+			
+		}
+		
+		.productFeaturesBG {
+			margin-top: 30px;
+			height: 600px;
+		}
 
     	.FeturedItems .feturedBlock {
     		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
@@ -78,6 +133,10 @@
       		} 
 		}
 
+		nav #megaMenu {
+		left: calc(100% - 850px);
+	}
+
 		.subscribe-bg .subscribe .subscribe-right .subscribe-input {
      		 width: 300px;
 		 }
@@ -115,6 +174,13 @@
 	.card .card-body form input {
 		width: 300px;
 	}
+	nav #megaMenu {
+		left: calc(100% - 850px);
+	}
+	#cartMenu {
+			top: 75px;
+	   		left: calc(100% - 270px);
+        }
 
 	.card .checkButton {
 		width: 150px;
@@ -125,6 +191,13 @@
       		} 
 		}
 }
+
+@media (max-width: 768px) {		
+		#cartMenu {
+			top: 55px;
+	   		left: calc(100% - 270px);
+        }
+    }
 
 @media (min-width: 435px) and (max-width: 575px) {
 			.topBlock {

@@ -1,3 +1,6 @@
+@import "variables.scss";
+@import "mixins.scss";
+
 .breadcrumbs-bg {
   height: 148px;
   background-color: #f8f3f4;
@@ -34,7 +37,7 @@
 	padding-bottom: 95px;
 }
 
-.card {
+.checkout-card {
 	border: none;
 	border-bottom: 1px solid $mainBackgroundColor;
 	margin: 0px;

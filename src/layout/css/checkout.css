@@ -24,49 +24,49 @@
   padding-top: 95px;
   padding-bottom: 95px; }
 
-.card {
+.checkout-card {
   border: none;
   border-bottom: 1px solid #e8e8e8;
   margin: 0px;
   padding: 0px; }
-  .card .card-header {
+  .checkout-card .card-header {
     padding-left: 0px;
     padding-right: 0px;
     border: none;
     background: none; }
-    .card .card-header button {
+    .checkout-card .card-header button {
       color: #222222;
       padding-left: 0px;
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase;
       text-decoration: none; }
-    .card .card-header .btn:focus {
+    .checkout-card .card-header .btn:focus {
       text-decoration: none;
       box-shadow: none; }
-  .card .checkTitle {
+  .checkout-card .checkTitle {
     color: #222222;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase; }
-  .card .checkText {
+  .checkout-card .checkText {
     color: #898989;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 34px; }
-  .card .checkRadio {
+  .checkout-card .checkRadio {
     color: #222222;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase; }
-    .card .checkRadio input {
+    .checkout-card .checkRadio input {
       margin: 4px 14px 6px 0px;
       vertical-align: middle; }
-      .card .checkRadio input:focus {
+      .checkout-card .checkRadio input:focus {
         background-color: black;
         color: black; }
-  .card .checkButton {
+  .checkout-card .checkButton {
     text-transform: uppercase;
     height: 50px;
     width: 180px;
@@ -76,21 +76,21 @@
     font-weight: 700;
     padding: 8px 16px;
     border: 1px solid #ececec; }
-    .card .checkButton:hover {
+    .checkout-card .checkButton:hover {
       background-color: #e8e8e8; }
-  .card .card-body form input {
+  .checkout-card .card-body form input {
     width: 390px;
     height: 45px;
     border: 1px solid #ececec;
     padding-left: 10px;
     font-size: 18px; }
-  .card .card-body form span {
+  .checkout-card .card-body form span {
     color: #f16d7f; }
-  .card .card-body form a {
+  .checkout-card .card-body form a {
     margin: 0px 0px 0px 32px;
     color: #222222;
     font-weight: 700; }
-    .card .card-body form a:hover {
+    .checkout-card .card-body form a:hover {
       color: #a2a2a2;
       text-decoration: none; }
 
