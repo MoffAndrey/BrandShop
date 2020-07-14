@@ -1,0 +1,112 @@
+<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/addToCart.png?raw=true" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/cart.png?raw=true" alt="Cart">
+						<img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/Featured1.jpg?raw=true" alt="Featured1">
+					</div>
+					<div class="featured-text ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/cart.png?raw=true" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/cart.png?raw=true" alt="Cart">
+						<img src="img/Featured2.jpg" alt="Featured2">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="img/addToCart.png" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="img/cart.png" alt="Cart">
+						<img src="img/Featured3.jpg" alt="Featured3">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="img/addToCart.png" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="img/cart.png" alt="Cart">
+						<img src="img/Featured4.jpg" alt="Featured4">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="img/addToCart.png" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="img/cart.png" alt="Cart">
+						<img src="img/Featured5.jpg" alt="Featured5">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="img/addToCart.png" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="img/cart.png" alt="Cart">
+						<img src="img/Featured6.jpg" alt="Featured6">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="img/addToCart.png" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="img/cart.png" alt="Cart">
+						<img src="img/Featured7.jpg" alt="Featured7">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>
+				<div class="feturedBlock">
+					<div class="featuredImgWrap">
+						<div class="featuredBuy justify-content-center align-items-center">
+							<button>
+							<img src="img/addToCart.png" alt="">
+							Add to Cart
+							</button>
+						</div>
+						<img class="addtocartPhones d-md-none d-block" src="img/cart.png" alt="Cart">
+						<img src="img/Featured8.jpg" alt="Featured8">
+					</div>
+					<div class="featured-text  ml-3 mt-2">Mango People T-shirt</div>
+					<div class="featured-price ml-3 mt-2">$52.00</div>
+				</div>

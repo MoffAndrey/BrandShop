@@ -11,7 +11,7 @@ body {
 .logo {
 		min-width: 176px;
 		max-width: 176px;
-		background: url('../img/logo.png') no-repeat;
+		background: url('https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/logo.png?raw=true') no-repeat;
 		background-position: center left;
 		font-size: 27px;
   		font-weight: 300;
@@ -324,7 +324,7 @@ nav {
 	background-color: $mainBackgroundColor;
 	.topContent {
 		height: 100%;
-		background: url('../img/topHeaderBack.png') right top no-repeat;
+		background: url('https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/topHeaderBack.png?raw=true') right top no-repeat;
 		background-size: 52.5%;
 
 		.topVerticalRow {
@@ -520,7 +520,7 @@ nav {
 
 .subscribe-bg {
 	min-height: 450px;
-	background: url(../img/subscribe_bg.jpg) no-repeat, #ccc;
+	background: url('https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/subscribe_bg.jpg?raw=true') no-repeat, #ccc;
   	background-blend-mode: overlay;
 	background-size: 100% 100%;
 	
