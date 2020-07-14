@@ -1,0 +1,251 @@
+@media (min-width: 1200px) {
+		.offers {
+			height: 815px;
+		}
+	}
+
+@media (max-width: 1200px) {
+	nav .mainMenu li:not(:last-child) {
+        margin-right: 0px; }
+
+        #cartMenu {
+			top: 75px;
+	   		left: calc(100% - 270px);
+        }
+
+		.offers {
+			height: 520px;
+			width: 720px;
+			margin-top: 10px !important;
+			.offersBlock {
+				margin: 0px 5px; 
+				img {
+					width: 360px;
+				}
+			}
+		}
+	}
+
+@media (max-width: 768px) {
+			nav .mainMenu li a {
+        	font-size: 13px;
+        	padding: 4px 8px; 
+    	}
+		
+		#cartMenu {
+			top: 55px;
+	   		left: calc(100% - 270px);
+        }
+
+		.product {
+			margin-top: 0px;
+			.leftCatalog {
+				.card {
+					.card-body {
+						a {
+						letter-spacing: 3px;
+						font-size: 18px;
+						font-weight: 700;
+						}
+					}
+				}
+			}
+			.rightCatalog {
+				.rightProduct {
+						letter-spacing: 2px;
+						font-size: 16px;
+						font-weight: 400;
+
+						.productTrend a {
+							letter-spacing: 2px;
+							font-size: 16px;
+							font-weight: 400;
+						}
+
+						.productTrend-h4 {
+							font-size: 18px;
+							font-weight: 700;
+						}
+				}
+			}
+			nav {
+				margin-top: 0px;
+			}
+			.buttonViewAll {
+				width: 75%;
+			}
+			
+		}
+		
+		.productFeaturesBG {
+			margin-top: 30px;
+			height: 600px;
+		}
+
+    	.FeturedItems .feturedBlock {
+    		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    		
+			&:not:first-child {
+          	margin-top: 27px;
+      		} 
+		}
+		
+		.breadcrumbs-bg {
+			height: 80px;
+		}
+
+    	.offers {
+			height: 1050px;
+			margin-top: 10px !important;
+			width: auto;
+
+			.offersBlock { 
+				.offersContent {
+					padding: 20px 36px;
+  					height: 120px;
+					top: 27%;
+  					background: rgba(255, 255, 255, 0.4);
+ 					font-size: 28px;
+    				font-weight: 1000;
+		
+    				span {
+						font-size: 40px;
+					}
+				}
+
+				img {
+					width: 360px;
+				}
+			}
+		}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+		.topBlock {
+			height: 490px;
+		}
+	}
+
+@media (max-width: 1200px) {
+		.FeturedItems .feturedBlock {
+			&:nth-child(n+4) {
+          	margin-top: 27px;
+      		} 
+		}
+
+		nav #megaMenu {
+		left: calc(100% - 850px);
+	}
+
+		.subscribe-bg .subscribe .subscribe-right .subscribe-input {
+     		 width: 300px;
+		 }
+
+		.topBlock {
+			height: 370px;
+			.topContent {
+				div {
+					.topContentText {
+							font-size: 2.8rem;
+						span {
+							font-size: 2rem;
+						}
+					}
+				}
+			}
+		}
+		.footer-content .footer-menu .footer-menuItem {
+     		 font-size: 11px;
+     		}
+
+      	.footer-content .footer-menu .footer-menuItem:first-child {
+       		 font-size: 13px;
+        }	
+
+        .discountBanner {
+        	margin-bottom: 0px;
+        }
+        .subscribe-bg {
+        	padding-top: 20px;
+        }
+	}
+
+@media (max-width: 991px) {
+	.card .card-body form input {
+		width: 300px;
+	}
+	nav #megaMenu {
+		left: calc(100% - 850px);
+	}
+	#cartMenu {
+			top: 75px;
+	   		left: calc(100% - 270px);
+        }
+
+	.card .checkButton {
+		width: 150px;
+		}
+	.FeturedItems .feturedBlock {
+			&:nth-child(n+2) {
+          	margin-top: 27px;
+      		} 
+		}
+}
+
+@media (max-width: 768px) {		
+		#cartMenu {
+			top: 55px;
+	   		left: calc(100% - 270px);
+        }
+    }
+
+@media (min-width: 435px) and (max-width: 575px) {
+			.topBlock {
+			height: 370px;
+			.topContent {
+				div {
+					.topContentText {
+							font-size: 2.8rem;
+						span {
+							font-size: 2rem;
+						}
+					}
+				}
+			}
+		}
+		#accordion {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		.card .card-body form a {
+			margin: 15px 0px;
+			}
+}
+
+@media (max-width: 435px) {
+		.topBlock {
+			height: 300px;
+			background-color: #ccc;
+			.topContent {
+				background: url('../img/topHeaderBack.png') right top no-repeat, #ccc;
+				background-size: 52.5%;
+				background-blend-mode: overlay;
+				}
+			}
+		#accordion {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		.card {
+			.card-body {
+				margin-left: 0px !important;
+				
+				form input {
+				width: 260px;	
+				}
+			}
+			.card-body form a {
+			margin: 15px 0px;
+			}
+		}
+}	
