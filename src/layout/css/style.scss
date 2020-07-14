@@ -17,9 +17,15 @@ body {
   		font-weight: 300;
  		line-height: 51px;
  		letter-spacing: 0.68px;
- 		color: #222222;
+ 		color: $mainTextColor;
  		text-transform: uppercase;
  		padding-left: 72px;
+	
+		&:hover {
+			cursor: pointer;
+			text-decoration: none;
+			color: $mainTextColor;
+		}
 
  		span {
  			font-weight: 900;
@@ -28,7 +34,6 @@ body {
 	}
 
 #cartMenu {
-		display: none;
 		position: absolute;
 		z-index: 1;
 		top: 75px;
@@ -120,14 +125,7 @@ body {
 
 header {
 	min-height: 100px;
-	position: relative;	
-	
-	.cartButton:active + #cartMenu {
-			display: block;	
-		}
-	.cartButton:focus + #cartMenu {
-			display: block;	
-		}	
+	position: relative;		
 
 	.dropdown-menu {
 		a {
@@ -457,7 +455,23 @@ nav {
 		}
 	}
 	.fetured-btn {
-		@include btnMixin (48px, 16px, 700);
+		/* @include btnMixin (48px, 16px, 700, 190px); */
+		height: 48px;
+		width: 190px;
+    	background-color: $mainStyleColorLogoTextBtn;
+    	border: none;
+
+    	a {
+    		color: $mainTextColorBtn;
+    		font-size: 16px;
+    		font-weight: 700;
+    		text-decoration: none;
+    	}
+
+    	&:hover {
+    		background-color: lighten($mainStyleColorLogoTextBtn, 6%);
+    		cursor: pointer;
+    	}
 	}
 
 }

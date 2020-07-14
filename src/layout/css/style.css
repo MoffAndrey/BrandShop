@@ -297,12 +297,15 @@ body {
   color: #222222;
   text-transform: uppercase;
   padding-left: 72px; }
+  .logo:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #222222; }
   .logo span {
     font-weight: 900;
     color: #f16d7f; }
 
 #cartMenu {
-  display: none;
   position: absolute;
   z-index: 1;
   top: 75px;
@@ -369,10 +372,6 @@ body {
 header {
   min-height: 100px;
   position: relative; }
-  header .cartButton:active + #cartMenu {
-    display: block; }
-  header .cartButton:focus + #cartMenu {
-    display: block; }
   header .dropdown-menu a {
     color: #4f4f4f;
     font-size: 14px;
@@ -630,16 +629,19 @@ nav {
       .FeturedItems .feturedBlock:hover .featuredBuy {
         display: flex; }
   .FeturedItems .fetured-btn {
-    min-height: 48px;
-    min-width: unset;
+    /* @include btnMixin (48px, 16px, 700, 190px); */
+    height: 48px;
+    width: 190px;
     background-color: #f16d7f;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px 16px;
     border: none; }
+    .FeturedItems .fetured-btn a {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none; }
     .FeturedItems .fetured-btn:hover {
-      background-color: #f48997; }
+      background-color: #f48997;
+      cursor: pointer; }
 
 .discountBanner {
   min-height: 530px;

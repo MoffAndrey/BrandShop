@@ -13,7 +13,7 @@
 	<body>
 		<header class="container mx-0 px-0 mx-auto row d-flex justify-content-md-between justify-content-sm-center">
 			<div class="col-md-8 col-12 mx-0 p-0 d-flex align-items-center justify-content-md-start justify-content-center row">
-				<div class="logo mr-md-5 col-md-3 col-sm-12 my-2 my-md-0">Bran<span>d</span></div>
+				<a class="logo mr-md-5 col-md-3 col-sm-12 my-2 my-md-0" href="index.html">Bran<span>d</span></a> 
 				<div class="d-flex col-md-8 col-12 align-items-center justify-content-md-start justify-content-center p-0 m-0">
 					<div class="dropdown">
 						<button class="btn btn-secondary dropdown-toggle searchBrowse" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,8 +51,8 @@
 				
 			</div>
 			<div class="d-none d-md-block d-md-flex col-md-4 col-sm-12 justify-content-md-end justify-content-center align-items-center my-2 my-md-0">
-				<a class="cartButton" href="#"><img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/cart.png?raw=true" alt="Cart"></a>
-				<div id="cartMenu">
+				<a href="#"><img class="cartButton" src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/cart.png?raw=true" alt="Cart"></a>
+				<div id="cartMenu" class="d-none">
 					<div class="cartMenu-block d-flex justify-content-between align-items-center mx-3 py-3">
 						<img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/CartMenu1.png?raw=true" alt="First">
 						<div class="cartMenu-block-content my-auto ml-3">
@@ -91,7 +91,7 @@
 				<div class="dropdown">
 					<button class="btn btn-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-						<a href="#" class="dropdown-item" type="button">home</a>
+						<a href="index.html" class="dropdown-item" type="button">home</a>
 						<a href="#" class="dropdown-item" type="button">man</a>
 						<a href="#" class="dropdown-item" type="button">women</a>
 						<a href="#" class="dropdown-item" type="button">kids</a>
@@ -227,9 +227,9 @@
 			<h2 class="fetured-h2 mb-2">Fetured Items</h2>
 			<h4 class="fetured-h4 mb-5">Shop for items based on what we featured in this week</h4>
 			<div class="feturedArea text-left d-flex flex-wrap justify-content-center justify-content-md-between align-items-center">
-				
+				<!-- Контент грузит JS -->
 			</div>
-			<button class="fetured-btn mt-5">Browse All Product <i class="fas fa-long-arrow-alt-right"></i></button>
+			<div class="fetured-btn mt-5 mx-auto d-flex align-items-center justify-content-center"><a href="product.html">Browse All Product <i class="fas fa-long-arrow-alt-right"></i></a></div>
 		</div>
 		<div class="discountBanner container d-flex row mx-auto p-0">
 			<img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/Banner.jpg?raw=true" alt="30% Offer for women" class="discountBanner-img col-lg-8 col-md-12 p-0">
@@ -336,7 +336,9 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 		<script src="../src/components/js/initNewCatalog.js"></script>
     	<script src="../src/components/js/data_index.js"></script>
+    	<script src="../src/components/js/Basket.js"></script>
 	</body>
 </html>
