@@ -13,13 +13,25 @@ let catalog = {
             'https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/Featured8.jpg?raw=true',
         ],
         container: '.feturedArea',
-        template(name, price, img) {
+        template(name, price, img, id) {
           return `
             <div class="feturedBlock">
               <div class="featuredImgWrap">
                 <div class="featuredBuy justify-content-center align-items-center">
-                   <button>
-                    <img src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/addToCart.png?raw=true" alt="">
+                   <button
+                    id="add"
+                    data-name="${name}"
+                    data-img="${img}"
+                    data-price="${price}"
+                    data-id="${id}"
+                   >
+                    <img 
+                     id="add"
+                     data-name="${name}"
+                     data-img="${img}"
+                     data-price="${price}"
+                     data-id="${id}"
+                     src="https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/addToCart.png?raw=true" alt="">
                      Add to Cart
                     </button>
                 </div>

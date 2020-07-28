@@ -14,12 +14,25 @@ let catalog = {
             'https://github.com/MoffAndrey/Static/blob/master/img/GeekBrains/BrandShop/Product9.jpg?raw=true',
         ],
         container: '.rightCatalogList',
-        template(name, price, img) {
+        template(name, price, img, id) {
           return `
             <div class="catalogListBlock">
               <img src="${img}">
-              <div class="featured-text ml-3 mt-2">${name}</div>
-              <div class="featured-price ml-3 mt-2">$${price}</div>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <div class="featured-text ml-3 mt-2">${name}</div>
+                  <div class="featured-price ml-3 mt-2">$${price}</div>
+                </div>
+                <button class="d-flex justify-content-center align-items-center addToBasket">
+                <i class="fas fa-shopping-cart" 
+                  id="add"
+                  data-name="${name}"
+                  data-img="${img}"
+                  data-price="${price}"
+                  data-id="${id}"
+                ></i>
+                </button>
+              </div>
             </div>
           `
         }

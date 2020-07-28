@@ -33,13 +33,12 @@ body {
  		}
 	}
 
-#cartMenu {
+#basket {
 		position: absolute;
 		z-index: 1;
 		top: 75px;
 	    left: 150px;
 		width: 262px;
-		height: 440px;
 		border-radius: 5px;
 		border: 1px solid #ededed;
 		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
@@ -49,7 +48,7 @@ body {
 			width: 88%;
 			height: 50px;
 			border: 1px solid $mainStyleColorLogoTextBtn;
-			margin-top: 32px;
+			margin-top: 20px;
 
 			a {
 				text-decoration: none;
@@ -61,7 +60,7 @@ body {
 			}
 
 			&:hover {
-				background-color: lighten($mainStyleColorLogoTextBtn, 20%);;
+				background-color: lighten($mainStyleColorLogoTextBtn, 20%);
 				cursor: pointer;
 			}
 		}
@@ -71,6 +70,7 @@ body {
 			height: 50px;
 			border: 1px solid $mainTextColor;
 			margin-top: 11px;
+			margin-bottom: 15px;
 
 			a {
 				text-decoration: none;
@@ -94,9 +94,24 @@ body {
 		.cartMenu-block {
 				border-bottom: 1px solid #ededed;
 			
+				img {
+					width: 72px;
+					height: 85px;
+					object-position: center center;
+					object-fit: contain;
+				}
+
 			.cartMenu-h4-f4 {
 					color: #c0c0c0;
 					font-size: 1rem;
+					background: none;
+    				border: none;
+    				outline: none;
+
+    				&:hover {
+						color: lighten($mainStyleColorLogoTextBtn, 6%);;
+						cursor: pointer;
+    				}
 				}
 
 			.cartMenu-block-content {
@@ -210,12 +225,6 @@ nav {
 	
 	.burgermenu {
 		
-		.cartButton-sm:active + #cartMenu {
-			display: block;	
-		}
-		.cartButton-sm:focus + #cartMenu {
-			display: block;	
-		}
 
 		button {
 			color: $footerText;

@@ -129,6 +129,14 @@
       background-color: #ffffff; }
   .product .rightCatalogList {
     margin-top: 28px; }
+    .product .rightCatalogList .addToBasket {
+      background: none;
+      border: none;
+      font-size: 32px;
+      margin: 20px 10px 0px 0px;
+      outline: none; }
+      .product .rightCatalogList .addToBasket:hover {
+        color: #f48997; }
     .product .rightCatalogList .catalogListBlock {
       margin: 20px 0px;
       padding-bottom: 20px; }

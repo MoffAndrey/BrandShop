@@ -199,6 +199,18 @@
 	
 	.rightCatalogList {
 		margin-top: 28px;
+		
+		.addToBasket {
+			background: none;
+    		border: none;
+    		font-size: 32px;
+    		margin: 20px 10px 0px 0px;
+    		outline: none;
+
+    		&:hover {
+    			color: lighten($mainStyleColorLogoTextBtn, 6%);
+    		}
+		}
 
 		.catalogListBlock {
 			margin: 20px 0px;
